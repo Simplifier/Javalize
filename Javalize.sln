@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.Javalize", "src\dotnet\ReSharperPlugin.Javalize\ReSharperPlugin.Javalize.csproj", "{8D1CD3F5-6772-4903-9A61-15B83BC9605C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.Javalize.Rider", "src\dotnet\ReSharperPlugin.Javalize\ReSharperPlugin.Javalize.Rider.csproj", "{205ADE14-0064-4913-B64C-065E6F8308AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.Javalize.Tests", "src\dotnet\ReSharperPlugin.Javalize.Tests\ReSharperPlugin.Javalize.Tests.csproj", "{3EE9C959-D470-408A-8FD1-84C128C0E9CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D1CD3F5-6772-4903-9A61-15B83BC9605C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1CD3F5-6772-4903-9A61-15B83BC9605C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1CD3F5-6772-4903-9A61-15B83BC9605C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1CD3F5-6772-4903-9A61-15B83BC9605C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205ADE14-0064-4913-B64C-065E6F8308AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205ADE14-0064-4913-B64C-065E6F8308AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205ADE14-0064-4913-B64C-065E6F8308AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205ADE14-0064-4913-B64C-065E6F8308AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE9C959-D470-408A-8FD1-84C128C0E9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE9C959-D470-408A-8FD1-84C128C0E9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE9C959-D470-408A-8FD1-84C128C0E9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE9C959-D470-408A-8FD1-84C128C0E9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

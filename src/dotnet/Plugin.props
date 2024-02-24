@@ -1,0 +1,27 @@
+﻿<Project>
+
+    <PropertyGroup>
+        <!-- See https://www.nuget.org/packages/JetBrains.ReSharper.SDK -->
+        <!-- Keep in sync with ProductVersion in gradle.properties -->
+        <SdkVersion>2023.3.0</SdkVersion>
+
+        <Title>Javalize</Title>
+        <Description>It folds new lines before left curly braces. So such code
+            void Foo()
+            {
+            }
+            looks like this
+            void Foo() {
+            }
+        </Description>
+
+        <Authors>Alex</Authors>
+        <Copyright>Copyright $([System.DateTime]::Now.Year) Maintainers of Javalize</Copyright>
+        <PackageTags>resharper plugin</PackageTags>
+
+        <PackageProjectUrl></PackageProjectUrl>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <PackageIconUrl></PackageIconUrl>
+    </PropertyGroup>
+
+</Project>
